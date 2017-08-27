@@ -8,10 +8,10 @@ using Microsoft.EntityFrameworkCore.Storage.Internal;
 using System;
 using Vue2Spa.Data;
 
-namespace Vue2Spa.Migrations
+namespace WebApplication4.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20170827013719_InitialCreate")]
+    [Migration("20170827012800_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
